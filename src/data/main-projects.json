@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Old-style labyrinth game",
+        "text": "Old-style game with descriptions and directions to follow using Redux thunks to fetch API.",
+        "tech": [
+            "React",
+            "Styled Components",
+            "Pair programming",
+            "APIs",
+            "Redux",
+            "Redux toolkit",
+            "Redux thunk"
+        ],
+        "image": "images/labyrinth.png",
+        "github": "https: //github.com/noraterbocs/project-labyrinth",
+        "demo": "https: //labyrinth-project-week-12.netlify.app/"
+    }
+]
