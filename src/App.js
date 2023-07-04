@@ -1,4 +1,5 @@
 import { FlexContainer } from 'components/FlexContainer'
+import { GlobalStyle } from 'components/GlobalStyle'
 import { FeaturedProjects } from 'pages/featuredprojectspage/FeaturedProjects'
 import { Introduction } from 'pages/introductionpage/Introduction'
 import { MyWords } from 'pages/mywordspage/MyWords'
@@ -10,6 +11,7 @@ import React from 'react'
 export const App = () => {
   return (
     <FlexContainer>
+      <GlobalStyle />
       <Introduction />
       <FlexContainer>
         <Tech />

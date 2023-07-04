@@ -1,8 +1,7 @@
-
 :root {
     background-color: #FFFFFF;
-    --primary-font-family: Satoshi-Variable;
-    --secondary-font-family: EBGaramond;
+    --primary-font-family: 'Open Sans', sans-serif;
+    --secondary-font-family: 'EB Garamond', serif;
     font-family: var(--primary-font-family);
     --primary-color: #000000;
     --secondary-color: #565656;
