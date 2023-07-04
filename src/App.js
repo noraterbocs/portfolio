@@ -9,7 +9,7 @@ import React from 'react'
 
 export const App = () => {
   return (
-    <div>
+    <FlexContainer>
       <Introduction />
       <FlexContainer>
         <Tech />
@@ -18,6 +18,6 @@ export const App = () => {
         <Skills />
       </FlexContainer>
       <TimeToTalk />
-    </div>
+    </FlexContainer>
   )
 }
