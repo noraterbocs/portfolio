@@ -7,6 +7,6 @@ export const FlexContainer = styled.div`
     align-items: ${(props) => (props.alignItems || 'center')};
     grid-area: ${(props) => props.gridArea};
     gap: ${(props) => props.gap || '1em'};
-    margin:${(props) => props.margin || '1em'};
+    margin:${(props) => props.margin || '0'};
     flex-wrap:${(props) => props.flexWrap || 'no-wrap'};
 `

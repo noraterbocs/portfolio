@@ -22,9 +22,10 @@ export const Button = styled.button`
     @media (min-width: 744px) {
     grid-area: ${(props) => props.gridArea};
      }
-    :hover {
+    &&:hover {
     color: #FFFFFF;
     background-color: ${(props) => (props.github ? '#EB5577' : '#0B24F5')};
+    cursor:pointer
     }
 
 

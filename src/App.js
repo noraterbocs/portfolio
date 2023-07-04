@@ -1,3 +1,4 @@
+import { FlexContainer } from 'components/FlexContainer'
 import { FeaturedProjects } from 'pages/featuredprojectspage/FeaturedProjects'
 import { Introduction } from 'pages/introductionpage/Introduction'
 import { MyWords } from 'pages/MyWords'
@@ -10,12 +11,12 @@ export const App = () => {
   return (
     <div>
       <Introduction />
-      <div>
+      <FlexContainer>
         <Tech />
         <FeaturedProjects />
         <MyWords />
         <Skills />
-      </div>
+      </FlexContainer>
       <TimeToTalk />
     </div>
   )

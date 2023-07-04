@@ -3,20 +3,18 @@ import { TfiWorld } from 'react-icons/tfi'
 import { FaGithub } from 'react-icons/fa'
 import { Button } from 'components/Button'
 import { FlexContainer } from 'components/FlexContainer'
+import { SectionTitle } from 'components/SectionTitle'
 import projects from '../../data/other-projects.json'
-import { ContainerProjects, ProjectImage, ProjectTechParagraph, ProjectText, ProjectTitle } from './FeaturedProjectsStyling'
+import { ContainerProject, ContainerProjects, ProjectImage, ProjectTechParagraph, ProjectText, ProjectTitle } from './FeaturedProjectsStyling'
 
 export const FeaturedProjects = () => {
-  // const buttons = [
-  //   { icon: TfiWorld, text: 'Live demo' },
-  //   { icon: FaGithub, text: 'View the code' }
-  // ]
   return (
-    <div>
+    <ContainerProjects>
+      <SectionTitle>Featured projects</SectionTitle>
       {projects.map((project) => {
         return (
-          <ContainerProjects key={project.image}>
-            <FlexContainer flexDirection="row">
+          <ContainerProject key={project.image}>
+            <FlexContainer flexDirection="row" gridArea="featured-project-img">
               <ProjectImage src={project.image} alt={project.title} />
             </FlexContainer>
             <FlexContainer gridArea="featured-project-description">
@@ -36,9 +34,9 @@ export const FeaturedProjects = () => {
             <a aria-label={`${project.title} - github`} target="_blank" href={project.github} rel="noreferrer">
               <Button github gridArea="github-btn"><FaGithub /> View the code</Button>
             </a>
-          </ContainerProjects>
+          </ContainerProject>
         )
       })}
-    </div>
+    </ContainerProjects>
   )
 }

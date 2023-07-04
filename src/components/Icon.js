@@ -8,6 +8,7 @@ export const ContainerContact = styled.div`
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    gap:1em;
     @media (min-width: 744px) {
         justify-self: start;
         align-self: stretch;
@@ -21,6 +22,10 @@ export const ContainerContact = styled.div`
 const AnchorIcon = styled.a`
 color: #D0D0D0;
 font-size: 2em;
+    &&:hover {
+    color: var(--header-color);
+    cursor:pointer
+    }
 `
 
 export const Icon = () => {

@@ -1,6 +1,20 @@
 import { styled } from 'styled-components'
 
-export const ContainerProjects = styled.div`
+export const ContainerProjects = styled.section`
+padding: 0 24px;
+max-width: 414px;
+    @media (min-width: 744px) {
+    max-width: 820px;
+    }
+@media (min-width: 1280px) {
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+`
+export const ContainerProject = styled.div`
  padding: 24px 0 18px 0;
  a {
     text-decoration: none;
@@ -15,9 +29,6 @@ export const ContainerProjects = styled.div`
             "featured-project-img tech-stack tech-stack"
             "featured-project-img livedemo-btn github-btn";
     }
-    @media (min-width: 1280px) {
-   max-width: 820px;
-    }
 `
 export const ProjectText = styled.p`
  font-size: 22px;
@@ -31,7 +42,6 @@ export const ProjectTitle = styled.h2`
     line-height: 43px;
     padding: 12px 0 9px 0;
 `
-
 export const ProjectTechParagraph = styled.p`
   font-family: var(--primary-font-family);
     font-size: 16px;
@@ -41,7 +51,6 @@ export const ProjectTechParagraph = styled.p`
     color: #FFFFFF;
     padding: 2px 6px;
 `
-
 export const ProjectImage = styled.img`
     height: 280px;
     width: 327px;
