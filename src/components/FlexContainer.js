@@ -9,4 +9,7 @@ export const FlexContainer = styled.div`
     gap: ${(props) => props.gap || '1em'};
     margin:${(props) => props.margin || '0'};
     flex-wrap:${(props) => props.flexWrap || 'no-wrap'};
+    a {
+        text-decoration: none;
+    }
 `

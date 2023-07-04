@@ -14,17 +14,3 @@ export const ContainerTech = styled.div`
         flex-direction: row
     }
 `
-export const Paragraph = styled.p`
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 32px;
-    max-width: 820px;
-    padding: 0 1em;
-    /* @media (min-width: 1280px) {
-        max-width: 820px;
-    } */
-`
-export const Span = styled.span`
-    background-color: ${(props) => props.backgroundColor};
-    color: #FFFFFF;
-`

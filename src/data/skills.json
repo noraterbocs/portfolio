@@ -1,0 +1,59 @@
+[
+    {
+        "category": "code",
+        "list": [
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "React",
+            "React Router",
+            "Redux",
+            "Redux toolkit",
+            "Node.js",
+            "Express API",
+            "MongoDB",
+            "Git"
+        ],
+        "color": "#EB5577"
+    },
+    {
+        "category": "toolbox",
+        "list": [
+            "VS Code",
+            "Github",
+            "NPM",
+            "Figma",
+            "Miro",
+            "Notion",
+            "Jira",
+            "Confluence",
+            "Slack",
+            "Postman/Insomnia",
+            "Freshworks",
+            "Google Cloud"
+        ],
+        "color": "#2483E0"
+    },
+    {
+        "category": "more",
+        "list": [
+            "Project management",
+            "Stakeholder management",
+            "People management",
+            "CRM process & system design",
+            "Scrum",
+            "Pair programming",
+            "Mob programming"
+        ],
+        "color": "#0B24F5"
+    },
+    {
+        "category": "upcoming",
+        "list": [
+            "Typescript",
+            "React Native",
+            "React Context"
+        ],
+        "color": "#6DB486"
+    }
+]

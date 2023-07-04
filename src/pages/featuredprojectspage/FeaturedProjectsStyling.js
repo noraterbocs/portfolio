@@ -30,18 +30,6 @@ export const ContainerProject = styled.div`
             "featured-project-img livedemo-btn github-btn";
     }
 `
-export const ProjectText = styled.p`
- font-size: 22px;
-    font-weight: 400;
-    line-height: 29px;
-    padding: 9px 0 10px 0;
-`
-export const ProjectTitle = styled.h2`
-  font-size: 32px;
-    font-weight: 900;
-    line-height: 43px;
-    padding: 12px 0 9px 0;
-`
 export const ProjectTechParagraph = styled.p`
   font-family: var(--primary-font-family);
     font-size: 16px;

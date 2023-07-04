@@ -4,12 +4,15 @@ import { FaGithub } from 'react-icons/fa'
 import { Button } from 'components/Button'
 import { FlexContainer } from 'components/FlexContainer'
 import { SectionTitle } from 'components/SectionTitle'
+import { SubTitle } from 'components/SubTitle'
+import { Paragraph } from 'components/Paragraph'
+import { SectionContainer } from 'components/SectionContainer'
 import projects from '../../data/other-projects.json'
-import { ContainerProject, ContainerProjects, ProjectImage, ProjectTechParagraph, ProjectText, ProjectTitle } from './FeaturedProjectsStyling'
+import { ContainerProject, ProjectImage, ProjectTechParagraph } from './FeaturedProjectsStyling'
 
 export const FeaturedProjects = () => {
   return (
-    <ContainerProjects>
+    <SectionContainer>
       <SectionTitle>Featured projects</SectionTitle>
       {projects.map((project) => {
         return (
@@ -18,8 +21,8 @@ export const FeaturedProjects = () => {
               <ProjectImage src={project.image} alt={project.title} />
             </FlexContainer>
             <FlexContainer gridArea="featured-project-description">
-              <ProjectTitle>{project.title}</ProjectTitle>
-              <ProjectText>{project.text}</ProjectText>
+              <SubTitle>{project.title}</SubTitle>
+              <Paragraph>{project.text}</Paragraph>
             </FlexContainer>
             <FlexContainer gridArea="tech-stack" margin="10px 0 14px 0" gap="0.3em" flexDirection="row" flexWrap="wrap">
               {project.tech.map((techstack) => {
@@ -37,6 +40,6 @@ export const FeaturedProjects = () => {
           </ContainerProject>
         )
       })}
-    </ContainerProjects>
+    </SectionContainer>
   )
 }

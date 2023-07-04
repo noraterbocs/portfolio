@@ -12,7 +12,135 @@
             "Redux thunk"
         ],
         "image": "images/labyrinth.png",
-        "github": "https: //github.com/noraterbocs/project-labyrinth",
-        "demo": "https: //labyrinth-project-week-12.netlify.app/"
+        "github": "https://github.com/noraterbocs/project-labyrinth",
+        "demo": "https://labyrinth-project-week-12.netlify.app/"
+    },
+    {
+        "title": "To do list",
+        "text": "To do app that can filter for specific categories.",
+        "tech": [
+            "React",
+            "Styled Components",
+            "Redux",
+            "Redux toolkit"
+        ],
+        "image": "images/todo_list.png",
+        "github": "https://github.com/noraterbocs/redux-project-todos",
+        "demo": "https://redux-to-do-app-nora.netlify.app/"
+    },
+    {
+        "title": "Quiz",
+        "text": "A group project to create a quiz using Redux.",
+        "tech": [
+            "React",
+            "Styled Components",
+            "Mob programming",
+            "Redux",
+            "Redux toolkit"
+        ],
+        "image": "images/quiz.png",
+        "github": "https://github.com/noraterbocs/project-redux-quiz-group-project",
+        "demo": "https://food-quiz-by-yu-joanna-nora.netlify.app/"
+    },
+    {
+        "title": "Roller derby website",
+        "text": "The objective of this project was to replicate a real-world design hand-off scenario, involving close cooperation with a designer and utilizing Figma to execute their design.",
+        "tech": [
+            "React",
+            "Styled Components",
+            "Figma"
+        ],
+        "image": "images/design_handoff.png",
+        "github": "https://github.com/noraterbocs/project-design-handoff",
+        "demo": "https://nora-design-handoff-project.netlify.app/"
+    },
+    {
+        "title": "Movie list",
+        "text": "A multipage website using React router and themoviedb.org API.",
+        "tech": [
+            "CSS3",
+            "React",
+            "React Router",
+            "JSX",
+            "API"
+        ],
+        "image": "images/movies.png",
+        "github": "https://github.com/noraterbocs/project-movies",
+        "demo": "https://nora-movies-project.netlify.app/"
+    },
+    {
+        "title": "Happy thoughts",
+        "text": "A twitter-like app receiving and posting data to API.",
+        "tech": [
+            "CSS3",
+            "React",
+            "JSX",
+            "API"
+        ],
+        "image": "images/happy_thoughts.png",
+        "github": "https://github.com/noraterbocs/project-happy-thoughts",
+        "demo": "https://noras-happy-thoughts-project.netlify.app/"
+    },
+    {
+        "title": "Survey",
+        "text": "A typeform like controlled form about working from home.",
+        "tech": [
+            "CSS3",
+            "React",
+            "JSX"
+        ],
+        "image": "images/survey.png",
+        "github": "https://github.com/noraterbocs/project-survey",
+        "demo": "https://noras-react-survey.netlify.app"
+    },
+    {
+        "title": "Music releases",
+        "text": "It was a pair project about listing Spotify albums based on a given design.",
+        "tech": [
+            "Pair programming",
+            "CSS3",
+            "JSX",
+            "React"
+        ],
+        "image": "images/music_release.png",
+        "github": "https://github.com/noraterbocs/project-music-releases",
+        "demo": "https://music-albums-project.netlify.app/"
+    },
+    {
+        "title": "'Who stole the tuna?' game",
+        "text": "The classic 'Guess who' board game, but this time it's about cats who are tuna thieves.",
+        "tech": [
+            "HTML5",
+            "CSS3",
+            "JS"
+        ],
+        "image": "images/guess_who.png",
+        "github": "https://github.com/noraterbocs/project-guess-who",
+        "demo": "https://who-stole-the-tuna.netlify.app/"
+    },
+    {
+        "title": "Chatbot",
+        "text": "Pastry ordering chatbot using dynamically created HTML elements in JavaScript.",
+        "tech": [
+            "HTML5",
+            "CSS3",
+            "JS"
+        ],
+        "image": "images/chatbot.png",
+        "github": "https://github.com/noraterbocs/project-chatbot",
+        "demo": "https://noras-pastry-shop.netlify.app/"
+    },
+    {
+        "title": "Weather app",
+        "text": "A web app built with OpenWeatherMap API using geolocation.",
+        "tech": [
+            "HTML5",
+            "CSS3",
+            "JS",
+            "API"
+        ],
+        "image": "images/weather_app.png",
+        "github": "https://github.com/noraterbocs/weather-app-individual-project",
+        "demo": "https://weatherappnora.netlify.app/"
     }
 ]
