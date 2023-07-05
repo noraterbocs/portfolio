@@ -10,7 +10,7 @@ export const Tech = () => {
     <SectionContainer tech>
       <BackgroundColor backgroundColor="#EDFFFF" />
       <SectionTitle>Tech</SectionTitle>
-      <Paragraph>HTML, CSS, <Highlighter backgroundColor="#EB5577">JavaScript,</Highlighter> ES6, JSX,
+      <Paragraph lineHeight="40px">HTML, CSS, <Highlighter backgroundColor="#EB5577">JavaScript,</Highlighter> ES6, JSX,
         <Highlighter backgroundColor="var(--header-color)">React, </Highlighter>
                 React Hooks, React Router, Styled Components,
                 Redux, Node.js, Express API,
