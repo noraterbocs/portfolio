@@ -1,5 +1,72 @@
 [
     {
+        "title": "AnimalQuest, kids' encyclopedia",
+        "text": "AnimalQuest, is a web application designed to enhance children's knowledge about animals in a fun and interactive way. The main features of the application include quizzes where users can earn points and badges as they learn about different animals. Each quiz is accompanied by a summary about the animal, and a chatbot feature that allows kids to ask for additional information. Moreover, the app offers a storytelling feature using Open AI, the same model as the chatbot.",
+        "tech": [
+            "React",
+            "Redux",
+            "Material UI",
+            "Node.js",
+            "Express.js",
+            "Express Router",
+            "MongoDB",
+            "MongoDB Atlas",
+            "Google Cloud",
+            "Open AI - Chat GPT 3.0 Turbo",
+            "Unsplash API"
+        ],
+        "image": "images/animalquest.png",
+        "github": "https://github.com/noraterbocs/animal-encyclopedia-final-project",
+        "demo": "https://animalquest.netlify.app"
+    },
+    {
+        "title": "Design handoff - Roller derby website",
+        "text": "The objective of this project was to replicate a real-world design hand-off scenario, involving close cooperation with a designer and utilizing Figma to execute their design.",
+        "tech": [
+            "React",
+            "Styled Components",
+            "Figma"
+        ],
+        "image": "images/rollerderby.png",
+        "github": "https://github.com/noraterbocs/project-design-handoff",
+        "demo": "https://nora-design-handoff-project.netlify.app/"
+    },
+    {
+        "title": "Fullstack project - Happy thoughts",
+        "text": "A twitter-like fullstack app receiving and posting data to API. I've focused on creating several API endpoints to practice different HTTP methods.",
+        "tech": [
+            "React",
+            "Redux",
+            "Material UI",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Atlas",
+            "Google Cloud"
+        ],
+        "image": "images/happy_thoughts.png",
+        "github": "https://github.com/noraterbocs/happy-thoughts-frontend",
+        "demo": "https://nora-happy-thoughts-fullstack-project.netlify.app/"
+    },
+    {
+        "title": "Fullstack project - Movies dataset",
+        "text": "In this project I list movies for which I have created my own database from an existing dataset, and seeded the data directly from my backend project. I've mainly focused on practicing different mongoose methods and learned how to create a dynamic API documentation.",
+        "tech": [
+            "React",
+            "Redux",
+            "Material UI",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "MongoDB Atlas",
+            "Google Cloud",
+            "Swagger"
+        ],
+        "image": "images/moviesfullstack.png",
+        "github": "https://github.com/noraterbocs/frontend-mongo-movie-project",
+        "demo": "https://noras-movie-fullstack-project.netlify.app"
+    },
+    {
         "title": "Old-style labyrinth game",
         "text": "Old-style game with descriptions and directions to follow using Redux thunks to fetch API.",
         "tech": [
@@ -16,131 +83,15 @@
         "demo": "https://labyrinth-project-week-12.netlify.app/"
     },
     {
-        "title": "To do list",
-        "text": "To do app that can filter for specific categories.",
-        "tech": [
-            "React",
-            "Styled Components",
-            "Redux",
-            "Redux toolkit"
-        ],
-        "image": "images/todo_list.png",
-        "github": "https://github.com/noraterbocs/redux-project-todos",
-        "demo": "https://redux-to-do-app-nora.netlify.app/"
-    },
-    {
-        "title": "Quiz",
-        "text": "A group project to create a quiz using Redux.",
-        "tech": [
-            "React",
-            "Styled Components",
-            "Mob programming",
-            "Redux",
-            "Redux toolkit"
-        ],
-        "image": "images/quiz.png",
-        "github": "https://github.com/noraterbocs/project-redux-quiz-group-project",
-        "demo": "https://food-quiz-by-yu-joanna-nora.netlify.app/"
-    },
-    {
-        "title": "Roller derby website",
-        "text": "The objective of this project was to replicate a real-world design hand-off scenario, involving close cooperation with a designer and utilizing Figma to execute their design.",
-        "tech": [
-            "React",
-            "Styled Components",
-            "Figma"
-        ],
-        "image": "images/design_handoff.png",
-        "github": "https://github.com/noraterbocs/project-design-handoff",
-        "demo": "https://nora-design-handoff-project.netlify.app/"
-    },
-    {
-        "title": "Movie list",
-        "text": "A multipage website using React router and themoviedb.org API.",
-        "tech": [
-            "CSS3",
-            "React",
-            "React Router",
-            "JSX",
-            "API"
-        ],
-        "image": "images/movies.png",
-        "github": "https://github.com/noraterbocs/project-movies",
-        "demo": "https://nora-movies-project.netlify.app/"
-    },
-    {
-        "title": "Happy thoughts",
-        "text": "A twitter-like app receiving and posting data to API.",
-        "tech": [
-            "CSS3",
-            "React",
-            "JSX",
-            "API"
-        ],
-        "image": "images/happy_thoughts.png",
-        "github": "https://github.com/noraterbocs/project-happy-thoughts",
-        "demo": "https://noras-happy-thoughts-project.netlify.app/"
-    },
-    {
-        "title": "Survey",
-        "text": "A typeform like controlled form about working from home.",
-        "tech": [
-            "CSS3",
-            "React",
-            "JSX"
-        ],
-        "image": "images/survey.png",
-        "github": "https://github.com/noraterbocs/project-survey",
-        "demo": "https://noras-react-survey.netlify.app"
-    },
-    {
-        "title": "Music releases",
-        "text": "It was a pair project about listing Spotify albums based on a given design.",
-        "tech": [
-            "Pair programming",
-            "CSS3",
-            "JSX",
-            "React"
-        ],
-        "image": "images/music_release.png",
-        "github": "https://github.com/noraterbocs/project-music-releases",
-        "demo": "https://music-albums-project.netlify.app/"
-    },
-    {
         "title": "'Who stole the tuna?' game",
-        "text": "The classic 'Guess who' board game, but this time it's about cats who are tuna thieves.",
+        "text": "The classic 'Guess who' board game, made in vanilla JS but this time it's about cats who are tuna thieves.",
         "tech": [
             "HTML5",
             "CSS3",
             "JS"
         ],
-        "image": "images/guess_who.png",
+        "image": "images/guesswho.png",
         "github": "https://github.com/noraterbocs/project-guess-who",
         "demo": "https://who-stole-the-tuna.netlify.app/"
-    },
-    {
-        "title": "Chatbot",
-        "text": "Pastry ordering chatbot using dynamically created HTML elements in JavaScript.",
-        "tech": [
-            "HTML5",
-            "CSS3",
-            "JS"
-        ],
-        "image": "images/chatbot.png",
-        "github": "https://github.com/noraterbocs/project-chatbot",
-        "demo": "https://noras-pastry-shop.netlify.app/"
-    },
-    {
-        "title": "Weather app",
-        "text": "A web app built with OpenWeatherMap API using geolocation.",
-        "tech": [
-            "HTML5",
-            "CSS3",
-            "JS",
-            "API"
-        ],
-        "image": "images/weather_app.png",
-        "github": "https://github.com/noraterbocs/weather-app-individual-project",
-        "demo": "https://weatherappnora.netlify.app/"
     }
 ]

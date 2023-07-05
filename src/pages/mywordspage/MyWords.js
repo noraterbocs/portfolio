@@ -36,7 +36,7 @@ export const MyWords = () => {
           aria-label="Link to the article about my career journey"
           href="https://medium.com/@nora.terbocs/discovering-my-passion-8cef10ac21f8"
           rel="noreferrer">
-          <Button> <AiOutlineRead /> Read article</Button>
+          <Button readarticle> <AiOutlineRead /> Read article</Button>
         </a>
       </div>
     </SectionContainer>

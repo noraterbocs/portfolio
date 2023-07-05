@@ -7,14 +7,15 @@ import { SectionTitle } from 'components/textComponents/SectionTitle'
 import { SubTitle } from 'components/textComponents/SubTitle'
 import { Paragraph } from 'components/textComponents/Paragraph'
 import { SectionContainer } from 'components/containerComponents/SectionContainer'
-import projects from '../../data/other-projects.json'
+import mainProjects from '../../data/main-projects.json'
 import { ContainerProject, ProjectImage, ProjectTechParagraph } from './FeaturedProjectsStyling'
+import { OtherProjects } from './OtherProjects'
 
 export const FeaturedProjects = () => {
   return (
     <SectionContainer>
       <SectionTitle>Featured projects</SectionTitle>
-      {projects.map((project) => {
+      {mainProjects.map((project) => {
         return (
           <ContainerProject key={project.image}>
             <FlexContainer flexDirection="row" gridArea="featured-project-img">
@@ -40,6 +41,7 @@ export const FeaturedProjects = () => {
           </ContainerProject>
         )
       })}
+      <OtherProjects />
     </SectionContainer>
   )
 }

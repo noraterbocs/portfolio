@@ -1,21 +1,5 @@
 [
     {
-        "title": "Old-style labyrinth game",
-        "text": "Old-style game with descriptions and directions to follow using Redux thunks to fetch API.",
-        "tech": [
-            "React",
-            "Styled Components",
-            "Pair programming",
-            "APIs",
-            "Redux",
-            "Redux toolkit",
-            "Redux thunk"
-        ],
-        "image": "images/labyrinth.png",
-        "github": "https://github.com/noraterbocs/project-labyrinth",
-        "demo": "https://labyrinth-project-week-12.netlify.app/"
-    },
-    {
         "title": "To do list",
         "text": "To do app that can filter for specific categories.",
         "tech": [
@@ -43,18 +27,6 @@
         "demo": "https://food-quiz-by-yu-joanna-nora.netlify.app/"
     },
     {
-        "title": "Roller derby website",
-        "text": "The objective of this project was to replicate a real-world design hand-off scenario, involving close cooperation with a designer and utilizing Figma to execute their design.",
-        "tech": [
-            "React",
-            "Styled Components",
-            "Figma"
-        ],
-        "image": "images/design_handoff.png",
-        "github": "https://github.com/noraterbocs/project-design-handoff",
-        "demo": "https://nora-design-handoff-project.netlify.app/"
-    },
-    {
         "title": "Movie list",
         "text": "A multipage website using React router and themoviedb.org API.",
         "tech": [
@@ -67,19 +39,6 @@
         "image": "images/movies.png",
         "github": "https://github.com/noraterbocs/project-movies",
         "demo": "https://nora-movies-project.netlify.app/"
-    },
-    {
-        "title": "Happy thoughts",
-        "text": "A twitter-like app receiving and posting data to API.",
-        "tech": [
-            "CSS3",
-            "React",
-            "JSX",
-            "API"
-        ],
-        "image": "images/happy_thoughts.png",
-        "github": "https://github.com/noraterbocs/project-happy-thoughts",
-        "demo": "https://noras-happy-thoughts-project.netlify.app/"
     },
     {
         "title": "Survey",
@@ -105,30 +64,6 @@
         "image": "images/music_release.png",
         "github": "https://github.com/noraterbocs/project-music-releases",
         "demo": "https://music-albums-project.netlify.app/"
-    },
-    {
-        "title": "'Who stole the tuna?' game",
-        "text": "The classic 'Guess who' board game, but this time it's about cats who are tuna thieves.",
-        "tech": [
-            "HTML5",
-            "CSS3",
-            "JS"
-        ],
-        "image": "images/guess_who.png",
-        "github": "https://github.com/noraterbocs/project-guess-who",
-        "demo": "https://who-stole-the-tuna.netlify.app/"
-    },
-    {
-        "title": "Chatbot",
-        "text": "Pastry ordering chatbot using dynamically created HTML elements in JavaScript.",
-        "tech": [
-            "HTML5",
-            "CSS3",
-            "JS"
-        ],
-        "image": "images/chatbot.png",
-        "github": "https://github.com/noraterbocs/project-chatbot",
-        "demo": "https://noras-pastry-shop.netlify.app/"
     },
     {
         "title": "Weather app",

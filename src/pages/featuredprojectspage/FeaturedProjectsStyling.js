@@ -30,6 +30,28 @@ export const ContainerProject = styled.div`
             "featured-project-img livedemo-btn github-btn";
     }
 `
+export const ContainerOtherProject = styled.div`
+    padding: 24px 0 18px 0;
+ a {
+    text-decoration: none;
+};
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 1fr 0.1fr;
+    gap: 0 24px;
+    grid-template-areas:
+            "featured-project-img featured-project-img"
+            "featured-project-description tech-stack"
+            "btns btns";
+
+    @media (min-width: 744px) {
+        grid-template-areas:
+            "featured-project-img featured-project-description btns"
+            "tech-stack tech-stack btns";
+        grid-template-columns: 1fr 0.8fr 0.8fr 0.1fr;
+        grid-template-rows: 1fr 0.4fr;
+    }
+`
 export const ProjectTechParagraph = styled.p`
   font-family: var(--primary-font-family);
     font-size: 16px;
@@ -40,8 +62,9 @@ export const ProjectTechParagraph = styled.p`
     padding: 2px 6px;
 `
 export const ProjectImage = styled.img`
-    height: 280px;
+    height: ${(props) => (props.otherprojects ? '100px' : '280px')};
     width: 327px;
     padding: 0 0 12px 0;
-    width: 100%;
+    width: ${(props) => (props.otherprojects ? '100px' : '100%')};
+    object-fit: cover
 `

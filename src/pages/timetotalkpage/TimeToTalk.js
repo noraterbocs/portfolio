@@ -22,7 +22,7 @@ export const TimeToTalk = () => {
         <Paragraph>nora.terbocs@gmail.com</Paragraph>
         <Icon />
       </FlexContainer>
-      <Animation src="https://assets5.lottiefiles.com/private_files/lf30_r6s65i6n.json" size="200px" />
+      <a aria-label="Back to the top" href="#root"><Animation src="https://assets5.lottiefiles.com/private_files/lf30_r6s65i6n.json" size="200px" /></a>
     </SectionContainer>
   )
 }
