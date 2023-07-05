@@ -1,15 +1,15 @@
 /* eslint-disable max-len */
-import { Button } from 'components/Button'
-import { SectionTitle } from 'components/SectionTitle'
+import { Button } from 'components/interactiveComponents/Button'
+import { SectionTitle } from 'components/textComponents/SectionTitle'
 import { AiOutlineRead } from 'react-icons/ai'
 import React from 'react'
-import { Image } from 'components/Image'
-import { FlexContainer } from 'components/FlexContainer'
-import { Paragraph } from 'components/Paragraph'
-import { SubTitle } from 'components/SubTitle'
-import { Date } from 'components/Date'
-import { SectionContainer } from 'components/SectionContainer'
-import { BackgroundColor } from 'components/BackgroundColor'
+import { Image } from 'components/imageComponents/Image'
+import { FlexContainer } from 'components/containerComponents/FlexContainer'
+import { Paragraph } from 'components/textComponents/Paragraph'
+import { SubTitle } from 'components/textComponents/SubTitle'
+import { Date } from 'components/textComponents/Date'
+import { SectionContainer } from 'components/containerComponents/SectionContainer'
+import { BackgroundColor } from 'components/otherAssets/BackgroundColor'
 
 export const MyWords = () => {
   return (

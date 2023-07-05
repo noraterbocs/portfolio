@@ -1,11 +1,11 @@
-import { FlexContainer } from 'components/FlexContainer'
-import { SectionContainer } from 'components/SectionContainer'
-import { SectionTitle } from 'components/SectionTitle'
+import { FlexContainer } from 'components/containerComponents/FlexContainer'
+import { SectionContainer } from 'components/containerComponents/SectionContainer'
+import { SectionTitle } from 'components/textComponents/SectionTitle'
 import React from 'react'
-import { Paragraph } from 'components/Paragraph'
-import { SubTitle } from 'components/SubTitle'
-import { BackgroundColor } from 'components/BackgroundColor'
-import { Highlighter } from 'components/Highlighter'
+import { Paragraph } from 'components/textComponents/Paragraph'
+import { SubTitle } from 'components/textComponents/SubTitle'
+import { BackgroundColor } from 'components/otherAssets/BackgroundColor'
+import { Highlighter } from 'components/otherAssets/Highlighter'
 import skillsData from '../../data/skills.json'
 
 export const Skills = () => {

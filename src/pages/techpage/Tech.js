@@ -1,9 +1,9 @@
 import React from 'react'
-import { SectionTitle } from 'components/SectionTitle'
-import { SectionContainer } from 'components/SectionContainer'
-import { BackgroundColor } from 'components/BackgroundColor'
-import { Highlighter } from 'components/Highlighter'
-import { Paragraph } from 'components/Paragraph'
+import { SectionTitle } from 'components/textComponents/SectionTitle'
+import { SectionContainer } from 'components/containerComponents/SectionContainer'
+import { BackgroundColor } from 'components/otherAssets/BackgroundColor'
+import { Highlighter } from 'components/otherAssets/Highlighter'
+import { Paragraph } from 'components/textComponents/Paragraph'
 
 export const Tech = () => {
   return (

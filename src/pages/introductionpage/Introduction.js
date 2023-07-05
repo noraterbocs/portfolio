@@ -1,9 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable max-len */
-import { NameHeader } from 'components/NameHeader';
-import { ProfileImg } from 'components/ProfileImg'
+import { NameHeader } from 'components/textComponents/NameHeader';
+import { ProfileImg } from 'components/imageComponents/ProfileImg'
 import React from 'react'
-import { Icon } from 'components/Icon';
+import { Icon } from 'components/otherAssets/Icon';
+import { Animation } from 'components/otherAssets/Animation';
 import { ContainerHeader, ContainerHeaderImg, HeroImg, ParagraphContainer, PersonalImgContainer, PersonalInfoContainer, Summary } from './IntroductionStyling';
 
 export const Introduction = () => {
@@ -37,12 +38,7 @@ export const Introduction = () => {
         </ParagraphContainer>
         <Icon />
       </PersonalInfoContainer>
-      {/* <div className="center section-scroll section">
-        <a aria-label="arrow down" href="#main">
-          <i className="fa-solid fa-arrow-down fa-2x" />
-        </a>
-        <p>Let's scroll</p>
-      </div> */}
+      <Animation size="200px" src="https://assets7.lottiefiles.com/datafiles/TECfNlBjjBlUhNg/data.json" />
     </ContainerHeader>
   )
 }

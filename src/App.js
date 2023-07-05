@@ -1,4 +1,4 @@
-import { FlexContainer } from 'components/FlexContainer'
+import { FlexContainer } from 'components/containerComponents/FlexContainer'
 import { GlobalStyle } from 'components/GlobalStyle'
 import { FeaturedProjects } from 'pages/featuredprojectspage/FeaturedProjects'
 import { Introduction } from 'pages/introductionpage/Introduction'
