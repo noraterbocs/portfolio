@@ -8,10 +8,10 @@ import { Paragraph } from 'components/textComponents/Paragraph'
 export const Tech = () => {
   return (
     <SectionContainer tech>
-      <BackgroundColor backgroundColor="#EDFFFF" />
+      <BackgroundColor backgroundColor="#edfff1" />
       <SectionTitle>Tech</SectionTitle>
       <Paragraph lineHeight="40px">HTML, CSS, <Highlighter backgroundColor="#EB5577">JavaScript,</Highlighter> ES6, JSX,
-        <Highlighter backgroundColor="#edfff1">React, </Highlighter>
+        <Highlighter backgroundColor="#0B24F5">React, </Highlighter>
                 React Hooks, React Router, Styled Components,
                 Redux, Node.js, Express API,
                 Mongo DB, Web Accessibility,
