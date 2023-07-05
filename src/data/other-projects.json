@@ -1,6 +1,6 @@
 [
     {
-        "title": "To do list",
+        "title": "To-Do list",
         "text": "To do app that can filter for specific categories.",
         "tech": [
             "React",
@@ -14,11 +14,10 @@
     },
     {
         "title": "Quiz",
-        "text": "A group project to create a quiz using Redux.",
+        "text": "A group project by doing mob programming to create a quiz using Redux for the first time.",
         "tech": [
             "React",
             "Styled Components",
-            "Mob programming",
             "Redux",
             "Redux toolkit"
         ],
@@ -33,7 +32,6 @@
             "CSS3",
             "React",
             "React Router",
-            "JSX",
             "API"
         ],
         "image": "images/movies.png",
@@ -53,12 +51,10 @@
         "demo": "https://noras-react-survey.netlify.app"
     },
     {
-        "title": "Music releases",
-        "text": "It was a pair project about listing Spotify albums based on a given design.",
+        "title": "Spotify API",
+        "text": "It was a pair programming project about listing Spotify albums based on a given design.",
         "tech": [
-            "Pair programming",
             "CSS3",
-            "JSX",
             "React"
         ],
         "image": "images/music_release.png",

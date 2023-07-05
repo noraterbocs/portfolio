@@ -52,6 +52,7 @@ export const PersonalInfoContainer = styled.div`
     flex-direction: column;
     align-items: start;
     padding: 0 24px;
+    justify-content: center;
     @media (min-width: 744px) {
     display: grid;
         grid-template-columns: 0.1fr 0.8fr;
@@ -61,9 +62,7 @@ export const PersonalInfoContainer = styled.div`
         grid-template-areas:
             "personal-info-profile-img personal-info-summary"
             "personal-info-paragraph personal-info-paragraph"
-            "contact-details contact-details"
-            "section-contact section-contact"
-            "footer-contact footer-contact";
+            "section-contact section-contact";
         };
     @media (min-width: 1280px) {
             padding: 0 48px;

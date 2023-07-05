@@ -5,4 +5,5 @@ export const Paragraph = styled.p`
     font-weight: 400;
     line-height: ${(props) => props.lineHeight || '29px'};
     padding: 9px 0 10px 0;
+  align-self: center;
 `
