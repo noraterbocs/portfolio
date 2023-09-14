@@ -1,7 +1,7 @@
 [
     {
         "title": "AnimalQuest, kids' encyclopedia",
-        "text": "AnimalQuest, is a web application designed to enhance children's knowledge about animals in a fun and interactive way. The main features of the application include quizzes where users can earn points and badges as they learn about different animals. Each quiz is accompanied by a summary about the animal, and a chatbot feature that allows kids to ask for additional information. Moreover, the app offers a storytelling feature using Open AI, the same model as the chatbot.",
+        "text": "The main features of the application include quizzes where users can earn points and badges as they learn about different animals. Each quiz is accompanied by a summary about the animal, and a chatbot feature that allows kids to ask for additional information. Moreover, the app offers a storytelling feature using Open AI, the same model as the chatbot.",
         "tech": [
             "React",
             "Redux",

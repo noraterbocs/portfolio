@@ -5,4 +5,5 @@ export const ProfileImg = styled.img`
     height: 164px;
     border-radius: 50%;
     margin: 29px;
+    object-fit: cover
 `
