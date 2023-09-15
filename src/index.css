@@ -18,3 +18,7 @@ body {
 p {
     font-family: var(--secondary-font-family)
 }
+
+#lottie svg>g>:nth-child(1)>g>:nth-child(1) {
+    fill: transparent;
+}
